@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vhomes",
+  "info": {
+    "singularName": "vhome",
+    "pluralName": "vhomes",
+    "displayName": "vhome"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

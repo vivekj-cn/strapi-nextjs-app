@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verticard_simple_css_templates",
+  "info": {
+    "singularName": "verticard-simple-css-template",
+    "pluralName": "verticard-simple-css-templates",
+    "displayName": "Verticard Simple CSS Template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Verticard": {
+      "type": "text"
+    }
+  }
+}
